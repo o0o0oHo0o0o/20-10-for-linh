@@ -67,3 +67,14 @@ h2{letter-spacing:0;line-height:1.45}
 .bf-five{left:calc(50% - 60px);height:245px}
 @media(max-width:600px){.bouquet-flower{bottom:77px;height:265px}.bf-two{height:280px}.bf-three{height:240px}.bf-four{height:215px}.bf-five{height:230px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;animation-delay:0s!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.petals{display:none}.flower-art .flower-svg,.plant{rotate:0!important}.bouquet-flower{opacity:1;transform:rotate(var(--rot))}.bouquet{animation:none}.empty-polaroid{opacity:1;transform:rotate(var(--rot))}}
+
+/* Slightly larger reading text, with the existing Vietnamese fonts. */
+.scene-subtitle{font-size:15px}
+#dialog-body,.letter-copy p,.intro-letter p:not(.eyebrow){font-size:16px}
+.polaroid>p{font-size:16px}
+.couple-copy p:not(.handwritten){font-size:14px}
+.button,.watering-game .button,.memory-game .button{font-size:14px}
+.game-help,.memory-game .game-help,.logic-directions{font-size:12px}
+.logic-clues ol,.logic-feedback,.logic-hint-copy,#memory-prompt{font-size:14px}
+.tiny-note{font-size:12px}
+@media(max-width:600px){.scene-subtitle{font-size:14px}.polaroid>p{font-size:15px}}

@@ -2,32 +2,30 @@
 window.GARDEN_CONFIG = {
   recipientName: 'Linh',
   senderName: 'Anh',
-  introduction: ['Chào {name}!', 'Hôm nay anh có một món quà nho nhỏ.', 'Nhưng hình như có vài bông hoa đang không chịu hợp tác với anh…', 'Hay em thử giúp anh một chút nhé?'],
+  introduction: ['Chào {name}!', 'Quà 20/10 của em đây!', 'Nhưng trước tiên, có vài thử thách nhỏ.', 'Thử xem em phá đảo được không nhé!'],
   flowerMessages: [
-    { type: 'tulip', name: 'Một chút niềm vui', subtitle: 'Tulip hồng', message: 'Chúc {name} lúc nào cũng có thật nhiều chuyện vui. Còn những chuyện không vui thì mong chúng chóng qua một chút.' },
-    { type: 'daisy', name: 'Một chút bình yên', subtitle: 'Cúc trắng', message: 'Mong em luôn khỏe mạnh, làm được những điều mình thích. Chúc em tập thêm được thật nhiều tư thế yoga mới, và nhớ dành thời gian nghỉ ngơi nữa nhé.' },
-    { type: 'peony', name: 'Một chút thương', subtitle: 'Mẫu đơn hồng', message: 'Cảm ơn em vì đã khiến những ngày gần đây của anh có thêm một điều để mong chờ.' }
+    { type: 'tulip', name: 'Vui vẻ mỗi ngày', subtitle: 'Tulip hồng', message: 'Chúc {name} nhiều niềm vui, ít deadline và ăn gì cũng ngon!' },
+    { type: 'daisy', name: 'Khỏe và dẻo dai', subtitle: 'Cúc trắng', message: 'Chúc em luôn khỏe và tập được thêm nhiều tư thế yoga mới nhé!' },
+    { type: 'peony', name: 'Thêm nhiều ngày vui', subtitle: 'Mẫu đơn hồng', message: 'Chúc em làm được những điều mình thích. Hôm nào mình đi chơi tiếp nhé!' }
   ],
   photoGallery: [
     { src: './assets/images/linh-02.png', caption: 'Tấm này anh thích.', alt: '{name} mỉm cười ở quán cà phê', objectPosition: '50% 47%' },
-    { src: './assets/images/linh-04.png', caption: 'Một chiếc ảnh rất dễ thương.', alt: '{name} mặc áo xanh, tạo dáng trước quán cà phê', objectPosition: '55% 48%' },
-    { src: './assets/images/linh-01.png', caption: 'Cho anh lưu vào bộ sưu tập nhé.', alt: '{name} đeo kính và tạo biểu cảm tinh nghịch', objectPosition: '50% 40%' },
-    { src: './assets/images/linh-yoga.png', caption: 'Chúc em chinh phục thêm thật nhiều tư thế yoga mới nhé!', alt: '{name} đang tập một tư thế yoga trên thảm', objectPosition: '50% 50%', fit: 'contain', tag: 'Mỗi ngày, thêm một chút dẻo dai' },
-    { src: './assets/images/linh-05.png', caption: 'Thêm một khoảnh khắc anh muốn giữ.', alt: '{name} tựa tay lên má ở quán cà phê', objectPosition: '50% 60%' },
-    { src: './assets/images/linh-06.png', caption: 'Và cả phiên bản tinh nghịch này nữa.', alt: '{name} chụp ảnh với biểu cảm phụng phịu đáng yêu', objectPosition: '50% 45%' }
+    { src: './assets/images/linh-04.png', caption: 'Tạo dáng có đầu tư.', alt: '{name} mặc áo xanh, tạo dáng trước quán cà phê', objectPosition: '55% 48%' },
+    { src: './assets/images/linh-01.png', caption: 'Biểu cảm này được đấy!', alt: '{name} đeo kính và tạo biểu cảm tinh nghịch', objectPosition: '50% 40%' },
+    { src: './assets/images/linh-yoga.png', caption: 'Chúc em tập được thêm nhiều tư thế mới nhé!', alt: '{name} đang tập một tư thế yoga trên thảm', objectPosition: '50% 50%', fit: 'contain', tag: 'Yoga lên trình!' },
+    { src: './assets/images/linh-05.png', caption: 'Nghỉ tạo dáng một chút.', alt: '{name} tựa tay lên má ở quán cà phê', objectPosition: '50% 60%' },
+    { src: './assets/images/linh-06.png', caption: 'Tấm này không được xóa nhé.', alt: '{name} chụp ảnh với biểu cảm phụng phịu đáng yêu', objectPosition: '50% 45%' }
   ],
   couplePhoto: { src: './assets/images/couple-01.png', alt: 'Bức ảnh chung của hai đứa', objectPosition: '50% 50%', fit: 'contain' },
-  couplePhotoMessages: ['Ảnh chung của mình mới có một tấm thôi…', 'Nhưng anh nghĩ album này vẫn còn nhiều chỗ trống.'],
+  couplePhotoMessages: ['Mới có một tấm ảnh chung.', 'Hôm nào chụp thêm nhé!'],
   finalLetter: [
     '20/10 vui vẻ nhé, {name}!',
-    'Anh định tặng em một bó hoa, nhưng nghĩ mãi rồi lại muốn làm thêm một điều gì đó hơi khác một chút. Thế là khu vườn nhỏ này ra đời.',
-    'Mong em có một ngày thật vui, nhận được nhiều điều dễ thương và luôn cảm thấy được quan tâm. Chúc em tập được thêm nhiều tư thế yoga mới, từng chút một, theo nhịp của riêng em.',
-    'Mình mới bắt đầu có thêm những kỷ niệm cùng nhau thôi. Cứ từ từ tận hưởng những ngày sắp tới là được, nhỉ?',
-    'Cảm ơn em vì đã làm cho những ngày gần đây của anh đặc biệt hơn một chút.',
-    'Thương em!'
+    'Chúc mừng em đã phá đảo khu vườn! Nhận hoa thôi.',
+    'Chúc em luôn vui, khỏe và tập được thêm nhiều tư thế yoga mới.',
+    'Hôm nào mình đi chơi và chụp thêm ảnh nhé!'
   ],
-  signature: 'Từ anh, với một chút thương',
-  easterEggMessage: 'Bí mật nè: Thật ra hoa ở đây chẳng cần tưới nước đâu. Anh chỉ kiếm cớ để em ở lại lâu hơn một chút thôi.',
+  signature: 'Người làm vườn',
+  easterEggMessage: 'Bướm này không có điểm thưởng đâu. Nhưng chúc em 20/10 vui vẻ thêm lần nữa!',
   musicEnabledByDefault: false,
   // Thêm file này rồi đổi musicAvailable thành true nếu muốn có nút bật nhạc.
   musicAvailable: false,
@@ -85,14 +83,14 @@ window.GARDEN_CONFIG = {
   },
   ui: {
     siteTitle: 'Khu vườn nhỏ của {name}',
-    openingTitle: 'Có một khu vườn nhỏ,\nđang đợi em ghé qua.',
-    openingSubtitle: 'Và một người đã để dành tất cả những bông hoa này cho em.',
-    gardenTitle: 'Một bông hoa\nđang đợi em.',
-    gardenIntro: 'Anh trồng thử một bông hoa cho em. Nhưng mà… nó chưa chịu lớn.',
-    wateringMessages: ['Chạm vào bình tưới, giúp anh một chút nhé.', 'Một chiếc mầm nhỏ. Có tiến triển rồi nè!', 'Thêm chút nữa thôi, hình như sắp được rồi…', 'Ơ, hóa ra nó đợi em thật.'],
-    flowersTitle: 'Ba bông hoa,\nba điều muốn nói.',
-    albumTitle: 'Những điều nhỏ xíu,\nanh muốn giữ lại.',
+    openingTitle: 'Linh ơi,\ncó quà 20/10 này!',
+    openingSubtitle: 'Vượt vài thử thách rồi nhận quà nhé.',
+    gardenTitle: 'Tưới hoa nào!',
+    gardenIntro: 'Hoa chưa chịu lớn. Thử tài tưới cây của em nào.',
+    wateringMessages: ['Chạm vào bình tưới, giúp anh một chút nhé.', 'Lên mầm rồi nè!', 'Sắp nở rồi, cố lên!', 'Hoa nở rồi! Mát tay đấy.'],
+    flowersTitle: 'Ba bông hoa,\nba lời chúc.',
+    albumTitle: 'Một vài tấm ảnh\nanh thích.',
     finalTitle: 'Happy 20/10, {name}!',
-    finalSubtitle: 'Anh không giỏi trồng hoa lắm.\nMay mà lần này có em giúp.'
+    finalSubtitle: 'Phá đảo rồi!\nBó hoa này của em.'
   }
 };
